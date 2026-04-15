@@ -91,7 +91,7 @@ stellar contract invoke \
   --name "Carol" \
   --message "Amazing guest book system!"
 
-  View all entries
+View all entries
 bash
 stellar contract invoke \
   --id CCAPT64JZCJKMEX37OM3MIT5NUCSBI3PQTS5O4LTGEMNMARNQPXATEDB \
@@ -117,47 +117,33 @@ stellar contract invoke \
   -- clear_all_entries
   
 Future Scope
+
 Short-Term Enhancements
-Frontend Web Application: User-friendly interface for interacting with the guest book
-
-Entry Rating System: Allow visitors to rate or like entries
-
-Rich Media Support: Support for images and emojis in messages
-
-Search Functionality: Implement search filters for large entry collections
+1. Frontend Web Application: User-friendly interface for interacting with the guest book
+2. Entry Rating System: Allow visitors to rate or like entries
+3. Rich Media Support: Support for images and emojis in messages
+4. Search Functionality: Implement search filters for large entry collections
 
 Medium-Term Development
-Moderation Features: Implement admin functions to manage inappropriate content
-
-Notification System: Off-chain bridge to alert admins of new entries
-
-Export Functionality: Allow exporting guest book data to CSV or JSON
-
-QR Code Generation: Generate QR codes for easy guest book access
+1. Moderation Features: Implement admin functions to manage inappropriate content
+2. Notification System: Off-chain bridge to alert admins of new entries
+3. Export Functionality: Allow exporting guest book data to CSV or JSON
+4.QR Code Generation: Generate QR codes for easy guest book access
 
 Long-Term Vision
-Multi-Event Support: Separate guest books for different events
-
-Decentralized UI Hosting: Host the frontend on IPFS
-
-Analytics Dashboard: Visual insights about guest interactions
-
-Cross-Chain Support: Extend to multiple blockchain networks
+1. Multi-Event Support: Separate guest books for different events
+2. Decentralized UI Hosting: Host the frontend on IPFS
+3. Analytics Dashboard: Visual insights about guest interactions
+4. Cross-Chain Support: Extend to multiple blockchain networks
 
 Technical Requirements
-Soroban SDK 20.0.0
-
-Rust programming language
-
-Stellar blockchain network (Testnet)
+- Soroban SDK 20.0.0
+- Rust programming language
+- Stellar blockchain network (Testnet)
 
 Getting Started
 Deploy the smart contract to Stellar's Soroban network and interact with it using the four main functions:
-
-add_entry() - Add a new entry with name and message
-
-get_entries() - Retrieve all stored entries from the contract
-
-delete_entry() - Remove a specific entry by its index
-
-clear_all_entries() - Remove all entries at once
+- add_entry() - Add a new entry with name and message
+- get_entries() - Retrieve all stored entries from the contract
+- delete_entry() - Remove a specific entry by its index
+- clear_all_entries() - Remove all entries at once
